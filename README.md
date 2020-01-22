@@ -20,9 +20,7 @@ To run the Keycloak service in this example it was started with a docker command
 
 After starting the service it is necessary to login into the Keycloak administration console and register a realm to create a security domain for our application (http://localhost:8080/auth/). The following video show the steps to create a Realm, a application client (according to the OAuth concept) and a application user:
 
-<video width="800" height="600" controls>
-  <source src="keycloak-springcloud.mp4" type="video/mp4">
-</video>
+![Keycloak Configuration](keycloak-springcloud.mp4)
 
 When creating the application client to be used by the application:
 
